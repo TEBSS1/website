@@ -1,0 +1,83 @@
+<html>
+<head>
+<title>CodeIT 2023, World's Biggest Tech and Coding Summit</title>
+</head>
+<font face="Verdana" color="white">
+<body bgcolor="black">
+<br>
+<img src="CodeIT Thumbnail.jpg" height="160" width="300"><font size="9">            CodeIT</font>
+<hr height="5">
+<button class="btn" onclick="document.location='loading-register.html'">Register</button>
+<button class="btn" onclick="document.location='loading-certificate.html'">About Us</button>
+<button class="btn" onclick="document.location='loading-login.html'">Login</button>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<center><iframe src=CodeIT.html height=400 width=1500></iframe></center>
+<br>
+</font>
+<font face="Franklin Gothic" color="white" size="7">
+<p>Introduction</p>
+<font size="4">
+<h2>Welcome to the Official Webpage of CodeIT Summit 2023, World's largest Tech and IT Summit which empowers you to enhance your content and encourage small businesses and coders to have revenue.</h2>
+<br>
+<br>
+<br>
+<font size="7">
+<p>Registration</p>
+<script>
+const disabledKeys = ["u", "I", "c"];
+
+const showAlert = e => {
+    e.preventDefault();
+    return alert("Sorry, but you can't copy or right-click on this webpage. Webpage protected!");
+}
+
+document.addEventListener("contextmenu", e => {
+    showAlert(e);
+});
+
+document.addEventListener("keydown", e => {
+    if (e.ctrlKey && disabledKeys.includes(e.key) || e.key === "F12") {
+        showAlert(e);
+    }
+});
+</script>
+<style>
+.btn{
+background: #fff;
+color: #222
+font-weight: 500;
+width: 30%;
+border: 1px solid #222;
+padding: 10px;
+margin: 10px 0;
+text-align: left;
+border-radius: 4px;
+cursor: pointer;
+transition: all 0.3s;
+}
+.btn:hover{
+background: #4947C2;
+color: #fff;
+}
+#next-btn{
+background: #001e4d;
+color: #fff;
+font-weight: 500;
+width: 150px;
+display: none;
+border: 0;
+padding: 10px;
+margin: 20px auto 0;
+border-radius: 4px;
+cursor: pointer;
+}
+</style>
+</body>
+</style>
+</font>
+</html>
